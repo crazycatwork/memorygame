@@ -1,0 +1,92 @@
+#container{
+  margin: auto;
+  margin-top: 25px;
+  width: 775px;
+  text-align: center;
+
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(5, 125px);
+  grid-template-rows: repeat(5, 125px);
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 125px;
+  height: 125px;
+  margin: 0;
+  padding: 0;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.cyan{
+  background-color: cyan;
+}
+
+.darkmagenta{
+  background-color: darkmagenta;
+}
+
+.midnightblue{
+  background-color: midnightblue;
+}
+
+.darkseagreen{
+  background-color: darkseagreen;
+}
+
+.khaki{
+  background-color: khaki;
+}
+
+.lavenderblush{
+  background-color: lavenderblush;
+}
+
+.mediumvioletred{
+  background-color: mediumvioletred;
+}
+
+.covered{
+  background-color: black;
+}
+
+#score {
+  font-weight: bolder;
+  font-size: 75px;
+  border: none;
+  vertical-align: middle;
+  width: 125px;
+  height: 125px;
+  margin: 0;
+  padding: 0;
+}
+
+#score div {
+  margin-top: 25px;
+  padding: 0;
+}
+
